@@ -16,3 +16,6 @@ for image in images:
     with open(name.replace(' ', '-') + '.jpg', 'wb') as f:
         im = requests.get(link)
         f.write(im.content)
+        
+       
+#link=https://www.youtube.com/watch?v=stIxEKR7o-c&ab_channel=JohnWatsonRooney
